@@ -42,12 +42,8 @@ if(array_key_exists('action', $_GET)){
         <p class="lead">student login page</p>
         <form action="resp/student.php" method="post">
             <input type="hidden" name="action" value="<?php echo 'login'; ?>">
-            <div class="d-flex flex-column w-25">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" autocomplete="off">
-            </div>
             <div class="d-flex flex-column w-25 mt-3">
-                <label for="email">email</label>
+                <label for="email">email/username</label>
                 <input type="email" id="email" name="email" autocomplete="off">
             </div>
             <div class="d-flex flex-column w-25 mt-3">

@@ -12,4 +12,10 @@
 <body>
     <div class="container">
         <h1 class="h3">Paper Registration System</h1>
+        <ul>
+            <li><a href="http://localhost/paper-registration/">Home</a></li>
+            <li><a href="http://localhost/paper-registration/add-subject.php">Add papers</a></li>
+            <li><a href="http://localhost/paper-registration/student.php?action=register">Student Register</a></li>
+            <li><a href="http://localhost/paper-registration/student.php?action=login">Student Login</a></li>
+        </ul>
         <hr>

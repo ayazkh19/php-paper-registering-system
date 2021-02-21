@@ -7,6 +7,7 @@ require_once './inc/initialize.php';
 
 <h1 class="h4">Add Subject here (admin area)</h1>
 <p class="lead">This page is for admin to add subjects to system</p>
+<p><small>this page will require admin privileges in future</small></p>
 <form action="resp/response.php" method="post">
     <div class="d-flex flex-column w-25">
         <label for="subject">Subject Name</label>
